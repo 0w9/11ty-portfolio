@@ -1,0 +1,16 @@
+{
+  "name": "priv",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i src/main.css -o ./src/dist/output.css",
+    "11ty": "npx @11ty/eleventy --serve",
+    "dev": "npm run tailwind && npm run 11ty"
+  },
+  "author": "Lennard Dorst",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}
