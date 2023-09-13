@@ -3,7 +3,8 @@
   "scripts": {
     "tailwind": "npx tailwindcss -i src/main.css -o ./src/dist/output.css",
     "11ty": "npx @11ty/eleventy --serve",
-    "dev": "npm run tailwind && npm run 11ty"
+    "dev": "npm run tailwind && npm run 11ty",
+    "build": "npx @11ty/eleventy"
   },
   "author": "Lennard Dorst",
   "license": "ISC",
